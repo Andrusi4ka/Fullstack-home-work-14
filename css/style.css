@@ -1,0 +1,12 @@
+.stub {
+  background-color: #eeeeee;
+  border: 1px solid #909090;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+main {
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */

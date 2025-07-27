@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home-work-13</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="text-center mb-5 mt-5">Домашнє завдання №14. Розробка адаптивного макету з використанням Bootstrap</h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="stub mb-3">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        Випадаюче меню
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Контакти</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Послуги</a></li>
+                        <li><a class="dropdown-item" href="#">Наші менеджери</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Залишити відгук</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Пошук" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Пошук</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row d-flex g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="stub p-0">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="image/slide1.jpg" class="d-block w-100" alt="Фотографія 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Перший слайд</h5>
+                    <p>Якийсь текст для першого слайду</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/slide2.jpg" class="d-block w-100" alt="Фотографія 2">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Другий слайд</h5>
+                    <p>Якийсь текст для другого слайду</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/slide3.jpg" class="d-block w-100" alt="Фотографія 3">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Третій слайд</h5>
+                    <p>Якийсь текст для третього слайду</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/slide4.jpg" class="d-block w-100" alt="Фотографія 4">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Четвертий слайд</h5>
+                    <p>Якийсь текст для четвертого слайду</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/slide5.jpg" class="d-block w-100" alt="Фотографія 5">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>П’ятий слайд</h5>
+                    <p>Якийсь текст для п’ятого слайду</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="image/slide6.jpg" class="d-block w-100" alt="Фотографія 6">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Шостий слайд</h5>
+                    <p>Якийсь текст для шостого слайду</p>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="stub">
+            <div class="accordion accordion-flush" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Що таке Lorem Ipsum?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <strong>Lorem Ipsum</strong> - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила
+                    п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного
+                    верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Звідки він походить?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    На відміну від поширеної думки Lorem Ipsum не є випадковим набором літер. Він походить з уривку класичної латинської літератури 45 року до н.е., тобто має більш як 2000-річну історію. Річард Макклінток, професор латини з
+                    коледжу Хемпдін-Сидні, що у Вірджінії, вивчав одне з найменш зрозумілих латинських слів - consectetur - з уривку Lorem Ipsum, і у пошуку цього слова в класичній літературі знайшов безсумнівне джерело. Lorem Ipsum походить з розділів 1.10.32 та 1.10.33 цицеронівського "de Finibus
+                    Bonorum et Malorum" ("Про межі добра і зла"), написаного у 45 році до н.е. Цей трактат з теорії етики був дуже популярним в епоху Відродження. Перший рядок Lorem Ipsum, "Lorem ipsum dolor sit amet..." походить з одного з рядків розділу 1.10.32.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Чому ми ним користуємось?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Вже давно відомо, що читабельний зміст буде заважати зосередитись людині, яка оцінює композицію сторінки. Сенс використання Lorem Ipsum полягає в тому, що цей текст має більш-менш нормальне розподілення літер на відміну від, наприклад, "Тут іде текст. Тут іде текст." Це робить
+                    текст схожим на оповідний. Багато програм верстування та веб-дизайну використовують Lorem Ipsum як зразок і пошук за терміном "lorem ipsum" відкриє багато веб-сайтів, які знаходяться ще в зародковому стані. Різні версії Lorem Ipsum з'явились за минулі роки, деякі випадково, деякі
+                    було створено зумисно (зокрема, жартівливі).
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Де собі взяти трохи?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Існує багато варіацій уривків з Lorem Ipsum, але більшість з них зазнала певних змін на кшталт жартівливих вставок або змішування слів, які навіть не виглядають правдоподібно. Якщо ви збираєтесь використовувати Lorem Ipsum, ви маєте упевнитись в тому, що всередині тексту не
+                    приховано нічого, що могло б викликати у читача конфуз. Більшість відомих генераторів Lorem Ipsum в Мережі генерують текст шляхом повторення наперед заданих послідовностей Lorem Ipsum. Принципова відмінність цього генератора робить його першим справжнім генератором Lorem Ipsum.
+                    Він використовує словник з більш як 200 слів латини та цілий набір моделей речень - це дозволяє генерувати Lorem Ipsum, який виглядає осмислено. Таким чином, згенерований Lorem Ipsum не міститиме повторів, жартів, нехарактерних для латини слів і т.ін.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="stub">
+            <div class="card rounded-0 border-0">
+              <img src="https://picsum.photos/600/400" class="card-img-top rounded-0" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Назва картки</h5>
+                <p class="card-text">Класичний текст, використовуваний з XVI сторіччя, наведено нижче для всіх зацікавлених.
+                </p>
+                <a href="#" class="btn btn-warning">Посилання</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="stub p-3">
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="exampleInputName" class="form-label">Ім'я</label>
+                  <input type="text" class="form-control" id="exampleInputName">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="exampleInputName2" class="form-label">Прізвище</label>
+                  <input type="text" class="form-control" id="exampleInputName2">
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputAddress" class="form-label">Адреса проживання</label>
+                <input type="text" class="form-control" id="exampleInputAddress">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Ми ніколи не передамо вашу електронну адресу нікому іншому</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Підтвердити</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Відправити</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-secondary text-white p-3 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p class="pt-2">© 2025 Усі права захищені.</p>
+        </div>
+        <div class="col-md-3">
+          <nav class="nav flex-column">
+            <a class="nav-link text-white" href="#">Посилання 1</a>
+            <a class="nav-link text-white" href="#">Посилання 2</a>
+            <a class="nav-link text-white" href="#">Посилання 3</a>
+            <a class="nav-link text-white" href="#">Посилання 4</a>
+          </nav>
+        </div>
+        <div class="col-md-6">
+          <iframe class="w-100 rounded-2" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3279864.0982617033!2d31.81848166449022!3d49.34959091397177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sno!4v1753629449975!5m2!1sru!2sno" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
